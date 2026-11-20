@@ -44,6 +44,8 @@ Repo này viết lại toàn bộ game bằng **C# trong Unity**, từ bản web
 
 Kết quả nằm trong `TestResults.xml` (`result="Passed"` là đạt). Hoặc trong Editor: **Window → General → Test Runner → EditMode → Run All**.
 
+**CI (GitHub Actions):** mỗi lần push lên `main` hoặc mở pull request, `.github/workflows/engine-tests.yml` chạy test engine bằng `dotnet test ci/Engine.Tests.csproj` (không cần Unity). Có cài .NET 8 SDK thì chạy được cùng lệnh đó trên máy.
+
 ## Cấu trúc
 
 ```

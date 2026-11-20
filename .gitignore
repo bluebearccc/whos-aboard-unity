@@ -21,3 +21,8 @@
 *.VC.db
 crashlytics-build.properties
 TestResults*.xml
+
+# CI chạy test engine bằng dotnet (ci/Engine.Tests.csproj)
+!/ci/*.csproj
+/ci/bin/
+/ci/obj/
