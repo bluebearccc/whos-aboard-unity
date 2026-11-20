@@ -1,0 +1,22 @@
+haren:
+  version: "1.6.0"
+layout: monorepo
+project: whos-aboard-unity
+mode: inherit
+language: Vietnamese
+
+repos:
+  # Add repos here. Paths are relative to this folder.
+  # backend:
+  #   path: ../backend
+
+ui:
+  mockups: ask   # ask | ascii | browser
+
+sources:
+  # Mode-specific inputs
+  # docs: ./artifacts/00-baseline/requirements.pdf
+
+hooks:
+  # on-phase-complete:
+  #   - echo "Module ${MODULE} completed ${PHASE}"

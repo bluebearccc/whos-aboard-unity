@@ -1,0 +1,4 @@
+.agent.json
+.agent.pid
+.plugins/
+.companion/
